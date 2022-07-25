@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,400;1,500&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    scroll-behavior: smooth;
+}
+/* mian-text */
+.main-text h1{
+    margin-left: 200px;
+    margin-top: 200px;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.main-text p {
+    margin-left: 200px;
+    display: block;
+}
+.dog{
+    width: 75%;
+    height: auto;
+}
+@media screen and (max-width:576px) {
+    .main-text{
+        padding-top: 50px;
+    }
+    .main-text h1{
+        font-size: 2rem;
+        margin-left: 20%;
+        margin-top: 5px;
+    }
+    .main-text p {
+        
+        margin-top: 5px;
+        margin-left: 20%;
+        display: block;
+    }
+    .main-imgae .main-dog{
+        width: 100% !important;
+        background-color: black;
+    }
+    .dog{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+@media screen and (max-width:989px) {
+    .main-text h1{
+        margin-left: 100px;
+        margin-top: 200px;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    
+    .main-text p {
+        margin-left: 100px;
+        display: block;
+    }
+    .dog{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width:768px) {
+    .main-text h1{  
+        font-size: 2rem;
+        margin-left: 0;
+        margin-top: 100px;
+    }
+    .main-text p {
+        margin-left: 0;
+        display: block;
+    }
+    .dog{
+        max-width: 500px !important;
+        height: auto;
+    }
+    
+}
+
+/* welcomeSection */
+.welcome-text h4{
+    font-weight: 600;
+}
+.welcome-text p{
+    font-size: 20px;
+}
+.xdoggerImg{
+  transition: all ease-in-out 0.4s;
+}
+.xdoggerImg:hover{
+    box-shadow: 10px 10px #A2C0BE;
+}
+/* trainers */
+/* #trainers{
+    background-color: #A2C0BE;
+} */
+.bgNew{
+    background-color: #A2C0BE;
+}
+/* price */
+.price-box {
+    padding: 40px 50px;
+    transition: all ease-in-out 0.3s;
+}
+.plan-price h1 span {
+    font-size: 16px;
+    color: #000;
+}
+
+.price-features p i {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.bitup{
+  transform: translateY(-50px);
+}
+@media  screen and (max-width:1400px) {
+   .bitup{
+      transform: translate(0);
+    }
+}
+.bgGray{
+    background-color: #6C757D;
+}
+.bgNew{
+    background-color: #A2C0BE;
+}
+/* gallery */
+.scaleEff{
+    transition: all ease-in-out 0.3s;
+}
+.scaleEff:hover{
+    transform: scale(1.2);
+    z-index: 9;
+}
+
+/* service */
+
+/* contact */
+.form-control{
+
+border-color: #fff !important;
+overflow: hidden;
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+   
+}
+a{
+    text-decoration: none;
+}
